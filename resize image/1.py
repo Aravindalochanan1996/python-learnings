@@ -4,7 +4,7 @@ import cv2
 img = cv2.imread('Media.jpg')
 print(img.shape)
 print(img.size)
-resizeImg = imutils.resize(img, width=500)
+resizeImg = imutils.resize(img, width=500d)
 cv2.imshow('Resized Image', resizeImg)
 cv2.imwrite('ResizedPhoto.jpg', resizeImg)
 cv2.waitKey(5000)
